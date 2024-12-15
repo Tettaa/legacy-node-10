@@ -1,0 +1,25 @@
+
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+	"name": "Template-node",
+	
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "devcontainer",
+    "workspaceFolder": "/home/",
+	
+// "features": {},
+
+	//Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				//"dbaeumer.vscode-eslint",
+				//"esbenp.prettier-vscode",
+				//"mrmlnc.vscode-scss"
+			]
+		}
+	}
+}

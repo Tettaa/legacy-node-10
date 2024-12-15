@@ -1,0 +1,6 @@
+services:
+  devcontainer:
+    build:
+      dockerfile: ./Dockerfile
+    container_name:
+      node-10
